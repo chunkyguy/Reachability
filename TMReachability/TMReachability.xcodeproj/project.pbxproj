@@ -10,8 +10,8 @@
 		1917EB581B13996C00BD3642 /* TMReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 1917EB571B13996C00BD3642 /* TMReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1917EB5E1B13996D00BD3642 /* TMReachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1917EB521B13996C00BD3642 /* TMReachability.framework */; };
 		1917EB651B13996D00BD3642 /* TMReachabilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1917EB641B13996D00BD3642 /* TMReachabilityTests.swift */; };
-		1917EB701B13997B00BD3642 /* TMReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 1917EB6E1B13997B00BD3642 /* TMReachability.h */; };
-		1917EB711B13997B00BD3642 /* TMReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1917EB6F1B13997B00BD3642 /* TMReachability.m */; };
+		1917EB701B13997B00BD3642 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 1917EB6E1B13997B00BD3642 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1917EB711B13997B00BD3642 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1917EB6F1B13997B00BD3642 /* Reachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +31,8 @@
 		1917EB5D1B13996D00BD3642 /* TMReachabilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMReachabilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1917EB631B13996D00BD3642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1917EB641B13996D00BD3642 /* TMReachabilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMReachabilityTests.swift; sourceTree = "<group>"; };
-		1917EB6E1B13997B00BD3642 /* TMReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMReachability.h; path = ../../TMReachability.h; sourceTree = "<group>"; };
-		1917EB6F1B13997B00BD3642 /* TMReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMReachability.m; path = ../../TMReachability.m; sourceTree = "<group>"; };
+		1917EB6E1B13997B00BD3642 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../../Reachability.h; sourceTree = "<group>"; };
+		1917EB6F1B13997B00BD3642 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ../../Reachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				1917EB571B13996C00BD3642 /* TMReachability.h */,
-				1917EB6E1B13997B00BD3642 /* TMReachability.h */,
-				1917EB6F1B13997B00BD3642 /* TMReachability.m */,
+				1917EB6E1B13997B00BD3642 /* Reachability.h */,
+				1917EB6F1B13997B00BD3642 /* Reachability.m */,
 				1917EB551B13996C00BD3642 /* Supporting Files */,
 			);
 			path = TMReachability;
@@ -115,7 +115,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1917EB701B13997B00BD3642 /* TMReachability.h in Headers */,
+				1917EB701B13997B00BD3642 /* Reachability.h in Headers */,
 				1917EB581B13996C00BD3642 /* TMReachability.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1917EB711B13997B00BD3642 /* TMReachability.m in Sources */,
+				1917EB711B13997B00BD3642 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +407,7 @@
 				1917EB6A1B13996D00BD3642 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1917EB6B1B13996D00BD3642 /* Build configuration list for PBXNativeTarget "TMReachabilityTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +416,7 @@
 				1917EB6D1B13996D00BD3642 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

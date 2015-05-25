@@ -25,7 +25,7 @@
  POSSIBILITY OF SUCH DAMAGE. 
  */
 
-#import "TMReachability.h"
+#import "Reachability.h"
 
 #import <sys/socket.h>
 #import <netinet/in.h>

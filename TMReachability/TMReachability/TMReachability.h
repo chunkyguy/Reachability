@@ -15,5 +15,5 @@ FOUNDATION_EXPORT double TMReachabilityVersionNumber;
 FOUNDATION_EXPORT const unsigned char TMReachabilityVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <TMReachability/PublicHeader.h>
-
+ #import <Reachability.h>
 
